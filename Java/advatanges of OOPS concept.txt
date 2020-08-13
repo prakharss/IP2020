@@ -1,0 +1,27 @@
+ADVANTAGE OF
+- Inheritance
+* Code Reusability
+* To implement runtime polymorphism
+
+- Aggregation and Compostion
+* Code Reusability
+
+- Object and Class
+* Easy maintainance
+* To achieve loose coupling
+
+- Method overloading
+* Increases the readability of the program
+
+- Method overriding
+* Method overriding is used to provide the specific implementation of a method which is already provided by its superclass
+* Method overriding is used for runtime polymorphism
+
+- Runtime polymorphism	
+* See factory design pattern	
+
+- Static variable	
+It makes your program memory efficient (i.e., it saves memory).	
+
+- final variable
+PAN_CARD for an employee

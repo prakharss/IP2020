@@ -1,0 +1,14 @@
+QUESTIONS
+- What is REST architecture
+- REST v/s SOAP
+- Restful API and get put post delete etc (What is the difference between POST and PUT in RESTful API)
+- Interoperability
+- Indexing and their types
+- B and B+ tree
+- Difference between thread and process
+- jar v/s war v/s EAR
+- framework v/s library
+
+NOTES
+- Rhino is a JavaScript engine written fully in Java and managed by the Mozilla Foundation as open source software
+- Representational state transfer (REST) is a software architectural style that defines a set of constraints to be used for creating Web services. Web services that conform to the REST architectural style, called RESTful Web services, provide interoperability between computer systems on the Internet.

@@ -1,0 +1,84 @@
+1) Basic OOPS
+
+2) Bird (height, weight, colour) (canFly(), foodType())
+
+/*
+	Builder Pattern
+*/
+
+class Bird {
+	int height;
+	int weight;
+	int x;
+
+	static class BirdUtil() {
+		int height;
+		int weight;
+		int x;
+		
+		/*Not required
+		BirdUtil(int h, int w) {
+
+		}
+		*/
+
+		Bird getInstance() {
+			return new Bird(this);
+		}
+
+		//validate methods
+		validatemethod1();
+		validatemethod2();
+
+		setHeight() {
+
+		}
+
+		getHeight() {
+
+		}
+
+		boolean allSetter() { //return true when all parameter correct
+			setHeight();
+			setWeight();
+		}
+	}
+
+	private Bird(int h, int w) {
+		//validate
+		this.height=h;
+		this.weight=w;
+	}
+
+	Bird(BirdUtil util) {
+		//validate  (will stop object creation if fails)
+		this.height=util.height;
+		this.weight=util.weight;
+		this.x=x;
+	}
+
+	boolean canFly() {
+
+	}
+}
+
+//expose to customer
+class DriverClass {
+	psvm() {
+		BirdUtil util=new BirdUtil();
+		if(util.validate(util))
+			Bird bird=new Bird(util);
+		else
+			//no object creation //error
+	
+		//Bird bird=new Bird(new BirdUtil(3,1));
+		//Bird obj=new BirdUtil(3,1).getInstance();
+		BirdUtil util=new BirdUtil();
+		boolean xyz=util.allSet();
+		if(xyz) {
+			Bird obj=util.getInstance();
+		}
+
+		//Bird obj=new BirdUtil().setHeight(3).setWeight(50);
+	}
+}

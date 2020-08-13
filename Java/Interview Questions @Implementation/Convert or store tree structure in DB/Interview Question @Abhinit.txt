@@ -1,0 +1,2 @@
+STORE TREE INTO DATABASE
+screenshot of that question (https://makandracards.com/makandra/45275-storing-trees-in-databases)

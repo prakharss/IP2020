@@ -1,0 +1,36 @@
+//Address Validation
+
+AddressLane
+Landmark:
+City:
+State:
+Country:
+ZipCode: 
+
+
+
+
+
+Class AddressValidator {
+	String[] AddressLaneList;
+	String Landmark;
+	String City;
+	String State;
+	String Country;
+	int ZipCode;
+
+	int getZipCode() {
+		return this.ZipCode;
+	}
+
+	void setterZipCode(int ZipCode) {
+		this.ZipCode=ZipCode;
+	}
+}
+
+
+Class AddressValidatorDriver {
+	
+}
+
+

@@ -1,0 +1,83 @@
+REAL WORLD EXAMPLE OF: 
+- Inheritance
+* Folder Structure (Single Level, Multilevel, Heirarchical)
+* Vehicle -> AutoMobiles (car, bus), Pulled vehicles (Rikshaw, Bull Cart)
+* Animals (eat) -> Dog (Bark), Cat (Meow)
+* Family
+
+- Association
+* One to One (One Company, One CEO) (School Principal)
+* One to Many (1 Manager, Many Reportee) (1 Department, Many Teacher)
+* Many to Many (Students and Teacher) (Cricketer, Team)
+
+- Aggregation
+* Employee has address (aggregation)
+* Car has engine and tyre (composition)
+* Library has books (composition)
+* Human has heart (composition)
+
+- Method overloading
+* An adjustable screwdriver may work on different types of screws based on the attachment (bit) supplied.
+*   class You
+	{
+		void talk(Stranger obj)
+		{
+			sysout("Hi, my day was great!");
+		}
+		void talk(Beloved obj)
+		{
+			sysout("Hi, my day was great! You won't believe what happened today! Blah!Blah!Blah!Blah!Blah!Blah!Blah!Blah!Blah!Blah! ");
+		}
+	}
+* The payment option on any ecommerce website has several options like netbanking, COD, credit card, etc. That means, a payment method is overloaded several times to perform single payment function in various ways.
+https://developer.payumoney.com/bolt-checkout/?_ga=2.183012838.1723721768.1595338909-1693498082.1595338909&_gac=1.116372980.1595338909.Cj0KCQjwpNr4BRDYARIsAADIx9xO8lMOTxt9T4I3QMOkYng1hbL9QYE7jius3kXA7b0cCbuU8DYY-7QaAmNrEALw_wcB
+
+- Method overriding
+* 
+class Father
+{
+	void drive()
+	{
+		//drive cautiously :-)
+	}
+	void home(){sout("father's home")}
+	void mobile(){sout("father's mobile")}
+	public void car(){
+		System.out.println("Father's Car");
+	}
+}
+class You extends Father
+{
+	void drive()
+	{
+		//drive rash! :P
+	}
+	//after crossing age 18
+	void mobile(){sout("my mobile");}
+	public void car() {
+		System.out.println("Son's Car");		
+	}
+}
+
+* 
+abstract class Bank{    
+	abstract int getRateOfInterest();    
+}    
+class SBI extends Bank{    
+	int getRateOfInterest(){return 7;}    
+}    
+class PNB extends Bank{    
+	int getRateOfInterest(){return 8;}    
+} 
+
+*
+abstract class Shape{  
+	abstract void draw();  
+}  
+//In real scenario, implementation is provided by others i.e. unknown by end user  
+class Rectangle extends Shape{  
+	void draw(){System.out.println("drawing rectangle");}  
+}  
+class Circle extends Shape{  
+	void draw(){System.out.println("drawing circle");}  
+}

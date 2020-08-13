@@ -1,0 +1,42 @@
+TOPICS/QUESTIONS
+EJB (https://www.edureka.co/blog/ejb-in-java/)
+spring framework (spring core) 
+advantage of spring framework
+modules of spring framework
+latest version of spring (spring 5)
+jar v/s war 
+framework v/s library
+what is IOC in general?
+what is dependency injection (setter and construtor injection?
+spring (IOC) container (bean factory v/s application context)
+features of IOC container
+Annotations: @autowired @component @qualifier @primary @prototype
+what is Spring MVC?
+what is Java Bean or simply bean or spring bean?
+
+LINK
+Edureka (https://www.youtube.com/watch?v=rMLP-NEPgnM)
+Telusko Learning (https://www.youtube.com/watch?v=K43qyHJXmWI) (https://www.youtube.com/watch?v=If1Lw4pLLEo)
+Selenium Express Youtube
+
+OTHERS
+jar (zip) -> collection of .class
+library -> collection of jars
+
+frontend (web.xml, JSP)
+war (zip) -> collection of all files related to your web application
+
+@Component
+Class A
+
+Front ---> Controller (end points)  -->  service layer (implementation)  -->  DAO ()   ---> DB 
+POJO classes
+
+
+
+
+
+
+
+
+

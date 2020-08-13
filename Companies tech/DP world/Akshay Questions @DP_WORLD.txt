@@ -1,0 +1,26 @@
+• What is a class and what is an object
+- A class is a blueprint of any real world entity. This blueprint tells about behaviour and properties of the class. For vehicle class, running a vehicle is behavior and it's color, size and type is it's properties.
+Example: Bird, Employee, Vehicle, etc.
+
+- Object is an instance of class which is an entity in the real world. Object has behaviour and properties. Object has both physical and logical existence where as class has only logical existence. 
+Example: Chair, Table, Student, Bike etc.
+
+• What is the difference between thread and process                                               
+- A process is a program under execution V/S A thread is a lightweight process that can be managed independently by a scheduler
+- Processes require more time for context switching as they are more heavy.                                                                     
+
+A process is an active program i.e. a program that is under execution. It is more than the program code as it includes the program counter, process stack, registers, program code etc.
+
+• What is the difference between array and linked list
+
+• What is the difference between inheritance and composition
+
+• What is the difference between POST and PUT in RESTful API
+
+• What is the difference between pessimistic and optimistic locking
+
+• Describe the difference between <script>, <script async> and <script defer>
+
+• What is regular expression and what are its use cases
+
+• In Javascript, What is the difference in creating an object between literal notation and constructor function?

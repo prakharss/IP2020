@@ -1,0 +1,34 @@
+TOPICS/QUESTIONS
+what is RESTful API's (https://www.youtube.com/watch?v=LooL6_chvN4)
+what is http protocol?
+All http methods (get, put, post, delete, patch) 
+Post v/s Put (https://restfulapi.net/rest-put-vs-post/)
+Rest v/s GraphQL (https://www.youtube.com/watch?v=PeAOEAmR0D0)
+What is GraphQL (https://www.youtube.com/watch?v=oPZoNjyTW3w)
+Resolver in GraphQL (how query is processed in graphQL - graphQL api using resolvers)
+Browser Cookies
+what is Resource in rest api?
+resource v/s endpoint 
+(https://stackoverflow.com/questions/30580562/what-is-the-difference-between-resource-and-endpoint)
+webserver v/s application server
+
+NOTES
+* GraphQL Features
+- Nothing more and nothing less (no-over fetching and no-under fetching)
+- Multiple resources in a single request
+- Query Shape === Response Shape
+
+* Rest and graphQL both are stateless as HTTP protocol is stateless
+
+* PATCH method is a request method supported by the Hypertext Transfer Protocol (HTTP) protocol for making partial changes to an existing resource
+
+* HTTP Status (https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+- 201 (created), 200 (success), 204 (success but no content)
+- 404 (resurce not found), 403 (forbidden), 405 (method not allowed) 
+- 500 Internal Server Error
+
+LINKS
+Rest is explained (https://www.youtube.com/watch?v=LooL6_chvN4)
+
+DOUBT
+how to process graphQL query in backend (we use resolver for that)

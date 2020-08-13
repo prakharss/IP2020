@@ -1,0 +1,23 @@
+Java 8 new features
+1) Lambda Expressions
+2) Functional Interfaces 
+3) Default and static method in interfaces (that will not be counted as abstract method)
+4) Stream API (Stream filter)
+productsList.stream()  
+                    .filter(p ->p.price> 30000)   // filtering price  
+                    .map(pm ->pm.price)          // fetching price  
+                    .forEach(System.out::println);  // iterating price  
+5) forEach method
+
+- Overriding default method (https://www.geeksforgeeks.org/default-methods-java/)
+- Default Methods with Multiple Inheritance (https://www.geeksforgeeks.org/default-methods-java/)
+
+Notes
+- Comparator, Runnable, Comparable (functional interface)
+- Comparable is technically a functional interface, but @FunctionalInterface is not used for comparable as it makes no sense to actually implement it with a lambda. Comparable objects really have to have other state that you're trying to compare, and you're supposed to compare two objects of the same type. Neither of those make sense for a lambda.
+- Serializable, RandomAccess, Cloneable (marker interface)
+- Functional interface can contain a) default method b) static method c) Object class method like equals(), hashCode(), toString() [Example: Comparator]
+- Comparator is a functional interface which contain some default method, static method, object class methods (equals() abstract method) and one more abstract method (compare()) (https://mkyong.com/java8/is-comparator-a-function-interface-but-it-has-two-abstract-methods/)
+
+LINKS
+https://www.geeksforgeeks.org/anonymous-inner-class-java/

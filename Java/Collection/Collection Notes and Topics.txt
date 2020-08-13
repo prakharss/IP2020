@@ -1,0 +1,44 @@
+TOPICS
+- Collection Hierarchy (meaning of all classes implementing collection interface)
+- hashMap internal implementation (working of hashMap) (https://javarevisited.blogspot.com/2011/02/how-hashmap-works-in-java.html)
+- hashCode, equals (interview questions) (https://javarevisited.blogspot.com/2011/02/how-to-write-equals-method-in-java.html)
+- hashSet internal implmentation
+- Implementation of arraylist
+- Comparator v/s Comparable  (How the Collection objects are sorted in Java?)
+- Sort a String (using character array)   (https://www.geeksforgeeks.org/sort-a-string-in-java-2-different-ways/)
+- Can you add a null element into a TreeSet or HashSet
+- Usecase of all collection related classes (Single project)
+- Difference between 
+1) ArrayList v/s Vector
+2) ArrayList v/s Linklist 
+3) Comparator (compare) v/s Comparable (compareTo)
+4) HashMap v/s HashTable
+5) (TreeSet v/s HashSet), (TreeMap v/s HashMap) 
+6) (LinkedHashMap v/s HashMap), (LinkedHashSet v/s HashSet)
+7) Collection v/s Collections
+- Use of priority queue with comparator and comparable
+
+NOTES
+- Collections.sort(), Array.sort()
+- Native equals method in Object class only compare the references but String override this method to compare it's content
+- In java equals() method is used to compare equality of two Objects. The equality can be compared in two ways:
+1) Shallow comparison: The default implementation of equals method is defined in Java.lang.Object class which simply checks if two Object references (say x and y) refer to the same Object. i.e. It checks if x == y. Since Object class has no data members that define its state, it is also known as shallow comparison.
+2) Deep Comparison: Suppose a class provides its own implementation of equals() method in order to compare the Objects of that class w.r.t state of the Objects. That means data members (i.e. fields) of Objects are to be compared with one another. Such Comparison based on data members is known as deep comparison.
+- hashCode and equals contract (Equal objects must produce the same hash code as long as they are equal, however unequal objects need not produce distinct hash codes) (https://www.geeksforgeeks.org/equals-hashcode-methods-java/)
+- With the introduction of generics (templates in C++), this class supports the storage of all types of objects (collection)
+
+//UBER QUESTION
+//Implementation of MAP
+//Create a map which perform following function
+//All this operation should happen in O(1)
+a) get(key)
+b) insert(key,value)
+c) remove (key)
+d) getRandom()
+
+
+
+
+
+
+

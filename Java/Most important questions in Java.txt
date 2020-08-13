@@ -1,0 +1,17 @@
+-> How to make a class immutable
+
+-> Why class is immutable in Java
+
+-> JDK, JRE, JVM (Architecture of JVM, C++ v/s Java)
+
+-> hashCode and equals method for hashMap (contract between hashCode and map)
+
+-> Real world examples of 1) Inheritance 2) Method overloading 3) Method overriding 4) Association and composition 5) Abstraction 6) Encapsulation
+
+-> Design decisions (or advantages) for above 6 points
+
+-> Difference between 
+a) Error and Exception 
+b) Checked and Unchecked Exception
+
+

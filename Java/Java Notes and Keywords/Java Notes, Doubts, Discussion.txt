@@ -1,0 +1,52 @@
+NOTES
+- Java has removed many complicated and rarely-used features, for example, explicit pointers, operator overloading, etc.
+- There is no need to remove unreferenced objects because there is an Automatic Garbage Collection in Java.
+- Single root hierarchy as everything gets derived from java.lang.Object.	
+- java.lang package is included by default in all other classes (Example: Object class methods is accessible from all classes)
+- Interface and classes can be present inside a class
+- Static members are always part of memory whether they are in use or not. Static members are stored in CLASS AREA
+You can not control creation and destruction of static variable. Usefully they have been created at program loading and destroyed when program unload (or when JVM shuts down).
+- Cohesion is the Object Oriented principle most closely associated with making sure that a class is designed with a single, well-focused purpose (based on single responsibility principle).
+The more focused a class is, the cohesiveness of that class is more. The advantages of high cohesion is that such classes are much easier to maintain (and less frequently changed) than classes with low cohesion. Another benefit of high cohesion is that classes with a well-focused purpose tend to be more reusable than other classes
+- Association is a virtual (or logical) concept which is implemented using Aggregation
+- A Java constructor cannot be abstract, static, final, and synchronized
+- No , constructor can never be overridden . It's because constructor acts at class level and it's unique for each class created in Java or any Oop language. Constructor can only be accessed by other classes to create it's object , but cant override it (think in terms of heirarchical inheritance)
+- hashCode(), equals(), toString() method of object class can be overridden in any class as they are part of Object class
+- There are two main restrictions for the static method. They are:
+The static method can not use non static data member or call non-static method directly.
+this and super cannot be used in static context.
+- Factory design pattern is example of run time polymorphism
+- Method Overriding with Access Modifiers: If you are overriding any method, overridden method (i.e. declared in subclass) must not be more restrictive.
+- See runtime polymorphism doubt program (A obj=new B() -> now obj can not call function of B method which are not overridden)
+- Default method in interface (https://www.geeksforgeeks.org/default-methods-java/#:~:text=The%20default%20methods%20were%20introduced,methods%20or%20virtual%20extension%20methods.)
+- Multiple inheritance along with default method in interface concept (https://www.geeksforgeeks.org/default-methods-java/#:~:text=The%20default%20methods%20were%20introduced,methods%20or%20virtual%20extension%20methods.
+)
+- Difference between error (not recovered - your flow will always be broken) and exception (recoverable using try and catch)
+- Error is an unchecked Exception (Totally and 100% WRONG) [But it belongs to unchecked category] [Error is not exception]
+- Why use java finally (Finally block in java can be used to put "cleanup" code such as closing a file, closing connection etc.)
+- checked exception needs to be throws (declare) or handled in try/catch block
+unchecked exception are not necessary to be throws (declare)
+AND custom exception are kind of unchecked exception
+- Which exception must be declared - CHECKED EXCEPTION
+- We can declare multiple exception
+- Unreachable statement compile time error (if anything written after throw keyword and dont handle this by try/catch or by throws)
+- If class is final, then it's method will behave as final
+
+DOUBTS
+
+
+DISCUSSION (OR DRAFT)
+- Can inner class access private member of it's outer class [NOT CLEAR]
+- when child implement an interface (is it a method overriding) 
+abstract class Shape{  
+	abstract void draw();  
+}  
+//In real scenario, implementation is provided by others i.e. unknown by end user  
+class Rectangle extends Shape{  
+	void draw(){System.out.println("drawing rectangle");}  
+}  
+class Circle extends Shape{  
+	void draw(){System.out.println("drawing circle");}  
+}
+YES, it is method overriding [CLEAR]
+- Abstraction mean hiding the internal details but why we are saying abstract class and interface are helping us to achieve Abstraction (we generally provide API documentation to customers, that should enough for abstraction) [CLEAR]

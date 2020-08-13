@@ -1,0 +1,35 @@
+NOTES
+* Spring Framework is a Java platform that provides comprehensive infrastructure support for developing Java applications. Spring handles the infrastructure so you can focus on your application.
+
+* Feature of Spring IOC Container
+- Creating the objects and configuring them
+- Wiring the objects together (@Autowired)
+- Managing complete life cycle of objects
+
+* Type of injection
+- setter injection
+- construtor injection
+
+* The Spring Framework is an application framework and inversion of control container which makes java application loosely coupled.
+
+* Spring Core Container: this is the base module of Spring and provides spring containers (BeanFactory and ApplicationContext)
+
+* Dependecy Injection is design pattern in java which is provided by spring containers. This helps to provide loose coupling in java.
+
+* In spring 5, no configuration is required (everything can be done using Annotation)
+
+* By default, singleton pattern is used in spring (we can @prototype to avoid singleton pattern)
+
+* Framework v/s library: Thus, the key difference is in the “Inversion of Control”, commonly called as IoC. When we call a method from a library, we are in control. But in framework, the control is inverted i.e. the framework calls us. It defines a skeleton where the application defines its own features to fill out the skeleton.
+[Library - you call it, Framework - it calls you.]
+
+* Library is a collection of jars [Ex: JRE System Library]
+
+*  Spring beans are Java objects that are managed by the Spring container
+- In the XML-based configuration, beans.xml supplies the metadata for the Spring container to manage the bean.
+
+* Difference between bean factory and application context?
+One difference between the bean factory and application context is that the former only instantiate bean when you call getBean() method while ApplicationContext instantiates Singleton bean when the container is started,  It doesn't wait for getBean to be called.
+- Both are interfaces
+- Application Context implements the BeanFactory interface. Hence, it includes all functionality of the BeanFactory and much more! Its main function is to support the creation of big business applications.
+- The ApplicationContext container includes all functionality of the BeanFactorycontainer, so it is generally recommended over BeanFactory. BeanFactory can still be used for lightweight applications like mobile devices or applet-based applications where data volume and speed is significant.
