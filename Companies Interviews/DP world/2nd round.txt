@@ -1,0 +1,18 @@
+- Tell me about yourself
+
+- Find longest valid parenthesis 
+https://leetcode.com/problems/longest-valid-parentheses/solution/ 
+https://www.geeksforgeeks.org/length-of-the-longest-valid-substring/
+Expecting O(n) with constant space
+
+- Length of the longest substring without repeating characters
+https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/
+Expecting O(n) with linear space S(n) but still best appraoch is O(n) S(1)
+
+We discussed queue approach as well (this will use S(n) extra space) 
+
+- Difference between SQL and NOSQL? -> He asked which is better cost wise? -> When we choose no sql and when we choose no sql db?
+
+- What is singleton design pattern?
+
+- Which DB you use in SN?

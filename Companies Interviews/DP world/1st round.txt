@@ -1,0 +1,42 @@
+- Tell about your UHG work?
+
+- Given an array of distinct elements. The task is to find triplets in the array whose sum is zero.
+Expecting O(n2) solution with constant space
+
+private static void triplets(int arr[]) {
+	int n=arr.size();
+	Arrays.sort(arr);
+	int ans=0;
+	for(int i=0;i<n;i++) {
+		target=-1*a[i];
+		int u=i+1; int v=n-1;
+		while(u<v) {
+			if(a[u]+a[v]<target)
+				u++;
+			else if(a[u]+a[v]>target)
+				v--;
+			else
+				ans++;
+		}
+	}
+	System.out.println(ans);
+}
+
+- Difference between final, finally and finalize?
+
+- Logically how we will find suggested friends for some user 'X' in facebook (He asked before that you know little graph or not). He also asked is it possible to store this data in 1 DB or not. If no, how you will tackle this problem?.
+He also mentioned that I am not suppose to code this.
+
+He was focussed only on friend parameter to show suggested friends (we can consider many other factors here also). He was expecting to think in terms of graph
+The nodes at distance of 2 from any user nodes are it's 2nd Connection (like linkedin). We just need to find all other nodes for some node 'X' which are at distance 2.
+
+- Do you know about design patterns and how many you have used in your projects? (Did not ask this in detail) 
+Interviewer just expecting the names of few design patterns
+
+Singleton, FactoryBean, Builder pattern
+
+- I am was using spring word a lot. So he asked me what do you know about springs?. Later he asked me why @autowired is used?
+
+Told everything I know about spring (about spring IOC container, DI, features of container, type of containers) and he was very impressed.
+
+

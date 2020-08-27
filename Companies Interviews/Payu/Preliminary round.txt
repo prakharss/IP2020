@@ -1,0 +1,19 @@
+Preliminary round
+Q1-
+If a round is tossed n times, the probability that there are 3 heads and head appear consecutively is 3/32. What is the value of n?
+n is 3
+
+Q2-
+(3+5+7+9+11+.....+ up to n terms)/(5+8+11+.....+ up to 10 terms)=7
+what is the value of n?
+n is 35
+
+Q3-
+Five customer buy 10,15,20,25,30 toffee from shops. Customer who bought 20 chocolates forget to pay and still shopkeeper earns profit of 20%. Calculate the profit for shopkeeper if that guy who forget to pay have paid?
+Answer is 50%
+
+Q4-
+Distance between 2 nodes (using lca we can do this)
+
+Q5-
+https://www.geeksforgeeks.org/count-number-binary-strings-without-consecutive-1s/

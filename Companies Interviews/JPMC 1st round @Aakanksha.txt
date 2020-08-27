@@ -1,0 +1,13 @@
+What is polymorphism
+Different types of polymorphism
+HashMap Internal Implementation
+List of Employees with Id, Name and Salary → How to sort them based on Name? Apart from Comparator and Comparable.
+What is dependency injection in spring?
+How to handle exceptions in java
+Can a class be private, final and abstract ?
+There are 3 implementations of an interface I → A, B, C. If for a class Autowiring is done on interface I, which implementation will come into play ?
+What is the difference between Spring JDBC and Core JDBC
+What are the new features added in Java 11 after Java 8?
+Why do we use GIT?
+What is the benefit of Lambda Functions?
+Given a table employee with empId, empName and salary. How to get the top 5 salaried employees?

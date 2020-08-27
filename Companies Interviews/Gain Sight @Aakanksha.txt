@@ -1,0 +1,42 @@
+Round 1 :
+1. Sum of descendants in a Binary Tree
+2. Write Java Singleton Class
+3. In Flipkart, on normal days we have 10000 customers. But on big billion days
+we have millions of customers. How we can handle huge amount requests?
+4. Database : 3 tables
+     1. Employee :: EmpId | EmpName
+     2. Department :: DeptId | DeptName
+     3. DepartmentMapping :: DeptId | EmpId
+     → Select all the EmpName group by dept
+     → Select the EmpName and corresponding departments
+5. Internal Implementation of HashMap
+6. Difference between different kind of Maps
+
+Round 2 :
+What is dependency injection and inversion of control
+If there are different classes which are autowiring on the same bean, how many instances will be created
+Like singleton and prototype, how many scopes
+If we have a HashMap<User, OtherField>, how can we ensure unique Users? hashCode on which field?
+Is this valid ? `public final class X { }
+public class Y extends X{ }`
+
+or
+
+`public class X { private X(){} }
+
+public class Y extends X{ }` 
+
+6. There is a List of List of Integers. How to sort them into a single list [using streams] 
+
+7. Idempotency in HTTP Verbs 
+
+8. Given three tables :
+
+Employee :: EmpId [PK] | EmpName | EmpDeptId [FK] | EmpDesignationId [FK] | Salary
+Department :: DeptId [PK] | DeptName
+Designation :: DesignationId [PK] | DesignationName
+→ Select top 3 salaried employees 
+
+→ Select top salaried department 
+
+→ Select average of salaries based on designation

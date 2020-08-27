@@ -1,0 +1,216 @@
+Few mulitiple choice java questions
+
+What will be the output of following programs
+
+1) 
+package com.java.examples;
+import java.util.*;
+class A {
+  public static void main(String[] args) {
+    User user = new User("Martin", 27);
+    Map<User, String> userStatusMap = new HashMap<User, String>();
+    userStatusMap.put(user, "Verified");
+    user.setName("John");
+    System.out.println(userStatusMap.get(user));
+  }
+}
+class User {
+  private String name;
+  private int age;
+
+  User(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public int getAge() {
+    return age;
+  }
+
+  public void setAge(int age) {
+    this.age = age;
+  }
+}
+
+2) 
+package com.java.examples;
+import java.util.*;
+class A {
+  public static void main(String[] args) {
+    User user = new User("Martin", 27);
+    Set<User> userStatusMap = new HashSet<User>();
+    userStatusMap.add(user);
+    userStatusMap.add(user);
+    System.out.println(userStatusMap.size());
+  }
+}
+class User {
+  private String name;
+  private int age;
+
+  User(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public int getAge() {
+    return age;
+  }
+
+  public void setAge(int age) {
+    this.age = age;
+  }
+}
+
+3)
+package com.java.examples;
+import java.util.*;
+class A {
+  public static void main(String[] args) {
+    User user1 = new User("Martin", 27);
+    User user2 = new User("Martin", 27);
+    Set<User> userStatusMap = new HashSet<User>();
+    userStatusMap.add(user1);
+    userStatusMap.add(user2);
+    System.out.println(userStatusMap.size());
+  }
+}
+class User {
+  private String name;
+  private int age;
+
+  User(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public int getAge() {
+    return age;
+  }
+
+  public void setAge(int age) {
+    this.age = age;
+  }
+}
+
+4) 
+package com.java.examples;
+import java.util.*;
+class A {
+  private final static int x = 77;
+  public static void main(String[] args) {
+    for(int i=0;i<77;i++) {
+      System.out.print(i);
+      i++;
+      break;
+    }
+    System.out.print(x);
+  }
+}
+
+5)
+package com.java.examples;
+import java.util.*;
+class A {
+  public static void main(String[] args) {
+    User user = new User("Martin", 27);
+    Map<User, String> userStatusMap = new HashMap<User, String>();
+    userStatusMap.put(user, "ABC");
+    user.setName("John");
+    System.out.println(userStatusMap.get(user));
+    
+    User newUser = new User("John", 27);
+    userStatusMap.put(newUser, "XYZ");
+    
+    System.out.println(userStatusMap.size());
+    System.out.println(userStatusMap.get(user));
+  }
+}
+class User {
+  private String name;
+  private int age;
+
+  User(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public int getAge() {
+    return age;
+  }
+
+  public void setAge(int age) {
+    this.age = age;
+  }
+  
+  @Override
+  public boolean equals(Object obj) {   //IMP
+    User user = (User) obj;
+    return (this.name == user.name && this.age == user.age); 
+  }
+  
+  @Override
+  public int hashCode() {   //IMP
+    return this.getAge();
+  }
+}
+
+6)
+package com.java.examples;
+class X {
+	void m1() {
+		System.out.println("m1");
+	}
+}
+class Y extends X {
+	void m1() {
+		System.out.println("m1");
+	}
+
+	void m2() {
+		System.out.println("m2");
+	}
+}
+class A {
+	public static void main(String[] args) {
+		X obj = new Y();
+    Y obj1 = new Y();
+		obj.m2(); //wrong
+    //obj1.m2(); //corrent
+
+    Y obj=new Y();
+	}
+}
+//Compile time error will come

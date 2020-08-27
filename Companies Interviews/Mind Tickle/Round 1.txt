@@ -1,0 +1,37 @@
+Q1) Tell me work you have done and which project you have worked in UHG and servicenow [Open end question] 
+
+Q2) N people are standing in line. We have started selection people from even postions (2,4,6,8 .... ). Again we will do the same thing.
+We need to figure out who will be left at last
+
+Example 
+-> N = 9
+1 2 3 4 5 6 7 8 9
+2 4 6 8
+4 8
+8 (answer)
+
+-> N = 7
+1 2 3 4 5 6 7
+2 4 6
+4 (answer)
+
+-> N = 8
+1 2 3 4 5 6 7 8
+2 4 6 8
+4 8
+8 (answer)
+
+- First interviewer ask was the naive approach and it's complexity (complexity calculation is imp here)
+Naive approach complexity = N + N/2 + N/4 + N/8 + N/16 + ............. log n terms
+                          = N * (1 + 1/2 + 1/4 + 1/8 + 1/16 + ............ log n terms)
+                          = 2 * N * (1 - 1/N)
+                          = 2 * N * ((N-1)/N)
+                          = 2 * (N - 1) = O(N)
+
+- Best Solution is pow(2, floor(log2 N))
+
+Q3) Library used for log(n) [how we will implement log(n)]
+
+Q4) How we will calculate pow(x,y) % m [Modular exponentiation]
+
+Q5) Implementation of HashMap

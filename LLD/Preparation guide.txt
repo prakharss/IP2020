@@ -1,0 +1,53 @@
+LLD
+- OOPS (C++, Java) 
+- Design Patterns
+- Questions 
+
+Singleton
+
+
+CLASS WISE
+- OOPS 
+- Design Pattern
+- Implementation ()
+
+Singleton, Factory, Builder design
+4 implement
+
+2 weeks
+- 90 minutes (weekday)
+
+Factory method (abstract)
+
+
+//Client of X company
+Class.getInstance("Android")
+Class.getInstance("Mac")
+
+//Company X
+interface OS {
+	
+}
+
+OS obj1=new Android;
+Android obj2=new Android;
+obj=new Mac();
+
+getInstance() {
+	if()
+	new Android
+	else
+}
+
+class Android implement OS {
+	
+}
+
+class Mac implement OS {
+	
+}
+
+class Linux implement OS {
+	
+}
+

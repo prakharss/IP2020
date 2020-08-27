@@ -1,0 +1,76 @@
+Q1-
+You are on a flight and wanna watch two movies during this flight.
+You are given List<Integer> movieDurations which includes all the movie durations.
+You are also given the duration of the flight which is d in minutes.
+Now, you need to pick two movies and the total duration of the two movies is less than or equal to (d - 30min) [considering landing and takeoff time].
+Find the pair of movies with the longest total duration and return their indexes. If multiple found, return the pair with the longest movie
+
+//INPUT and OUTPUT
+/*
+Input: movieDurations = [90, 85, 75, 60, 120, 150, 125], d = 250
+Output: [0, 6]
+*/ 
+
+//CODE
+/*
+package com.java.examples;
+
+import java.util.*;
+
+class Pair {
+	int duration;
+	int ind;
+}
+
+class A {
+	private static void util(int movie[],int duration) {
+		Arrays.sort(movie);
+		int mx=0; 
+		int u=-1,v=-1;
+		int l=0; int r=movie.length-1;
+		while(l<r) {
+			if(movie[l]+movie[r]<duration) {
+				mx=Math.max(mx,movie[l]+movie[r]);
+				System.out.println(l+" "+r);
+				System.out.println(movie[l]+movie[r]);
+				l++;
+			} else {
+				r--;
+			}	
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		int n=7;
+		int movie[]= {90, 85, 75, 60, 120, 150, 125};
+		int d=250;
+		A.util(movie,d-30);
+	}
+}
+
+Q2- 
+Find middle element of a linklist
+
+Q3- 
+Table 
+User (id, userId, role, recordStatus)
+recordStatus: 0 (activate) / 1 (deactivate)   
+Role: teacher/student/admin
+
+//User table
+1   abc  student  1
+2   abc  teacher  1
+3   xyz  student  1
+4   saf  teacher  1
+5   abc  admin    0  
+6   saf  teacher  0
+7   abc  admin    1
+
+Write SQL query to find all the students which has both student and teacher role
+
+Q4- Have you ever worked with NodeJs? 
+
+
+
+

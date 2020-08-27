@@ -1,0 +1,10 @@
+- What is REST API's and main feature of it?
+- What is statefull and stateless API?
+- Any example of stateful webservice?
+- What is candidate key in DBMS?
+- Merge n sorted list of size of k
+- To find square root of n
+- Do you know about redix sort and what best redix you will choose?
+- How to solve x + x log(x) = 10^9 (given value) [Find x programatically]
+- We have given an array of 0 and 1. How many swaps are required so that 1's are together. 
+https://practice.geeksforgeeks.org/problems/minimum-swaps-required-to-group-all-1s-together/0

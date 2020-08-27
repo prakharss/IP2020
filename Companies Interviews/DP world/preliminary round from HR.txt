@@ -1,0 +1,159 @@
+PRELIMINARY ROUND
+1) What is a class and what is an object?
+2) What is the difference between thread and process?
+3) What is the difference between array and linked list?
+4) What is the difference between inheritance and composition
+5) What is the difference between POST and PUT in RESTful API
+6) What is the difference between pessimistic and optimistic locking
+7) Describe the difference between <script>, <script async> and <script defer>
+8) What is regular expression and what are its use cases?
+9) In Javascript, What is the difference in creating an object between literal notation and constructor function?
+
+==========================================================================================
+
+1) What is a class and what is an object?
+- A class is a blueprint of any real world entity. This blueprint tells about behaviour and properties of the class. For vehicle class, running a vehicle is behavior and it's color, size and type is it's properties.
+Example: Bird, Employee, Vehicle, etc.
+
+- Object is an instance of class which is an entity in the real world. Object has behaviour and properties. Object has both physical and logical existence where as class has only logical existence. 
+Example: Chair, Student, Bike etc.
+
+==========================================================================================
+
+2) What is the difference between thread and process?
+a- A process is a program under execution V/S 
+A thread is a lightweight process that can be managed independently 
+
+b- Processes require more time for context switching as they are more heavy V/S
+Threads require less time for context switching as they are lighter than processes.
+
+c- Processes are independent and don’t share memory with other processes V/S
+A thread can share some memory with other threads.
+
+d- Process need more resources V/S
+Threads generally need less resources
+
+e- Processes require more time for creation and termination V/S
+Threads require less time for creation and termination.
+
+==========================================================================================
+
+3) What is the difference between array and linked list?
+a- Size
+Arrays: Fixed size
+Linklist: Dynamic size
+
+b- Insertion and deletion 
+Arrays: Slow
+Linklist: Fast
+
+c- Access
+Arrays: Elements can be accessed randomly
+LinkList: Elements can only be accessed sequentially
+
+d- Time of Memory Allocation
+Arrays: Compile Time Memory Allocation
+LinkList: RunTime Memory Allocation
+
+e- Way of Memory Allocation
+Array: Contigous Memory Allocation
+LinkList: Random Memory Allocation
+
+==========================================================================================
+
+4) What is the difference between inheritance and composition
+a- Relationship
+Inheritance: 'IS A' relationship
+Composition: 'HAS A' relationship
+
+b- Final class
+Inheritance: Cannot extend final class.
+Composition: Code reuse possible using final classes
+
+c- Code Reuse
+Inheritance: More than one class can’t be extended as java do not support multiple inheritance. 
+Composition: Can reuse functionality from different classes
+
+d- Scope
+Inheritance: Its features are available at compile time
+Composition: This can be achieved at run time also
+
+==========================================================================================
+
+5) What is the difference between POST and PUT in RESTful API
+a- Actions
+POST: Creates a new record
+PUT: Updates if record is present, otherwise also create new record
+
+b- URI Representation
+"POST /books/5" creates new book with the id of 5
+"PUT /books/5" would have to either create a new book with the id of 5, or replace the existing book with ID 5
+
+c- Idempotent
+POST: It is not idempotent (will create new request everytime when POST is called)
+PUT: It is idempotent (requesting multiple times equivalent to a single request)
+
+d- Caching
+POST: Response can not be cached
+PUT: Response can be cached
+
+==========================================================================================
+
+6) What is the difference between pessimistic and optimistic locking
+- Both mechanism determine how the DB transactions in our application access the data in database.
+
+a- Implementation
+Pessimistic locking: On updating the data, the record gets locked and no one else can access that record for updating. 
+Optimistic locking: A data is opened for updating by multiple users. A lock is granted only during the update transaction and not for the entire session
+
+b- Versioning
+Pessimistic: Data is only read only for other users if one transaction is going on. So no versioning is required
+Optimistic: Any one can try updating the data. It notes down version number and timestamp to avoid dirty read
+
+c- Integrity
+Pessimistic has better integrity than Optimistic locking
+
+d- Deadlock situation
+Pessimistic need to be carefully designed to avoid deadlock but on the other hand optimistic locking can never go in complete deadlock
+
+==========================================================================================
+
+7) Describe the difference between <script>, <script async> and <script defer>
+- <script>: This is a script tag without any attribute. In this, the HTML file will be parsed until the script file is hit, at that point parsing will stop and a request will be made to fetch the file (if it’s external). The script will then be executed before parsing is resumed.
+
+- <script async>: async downloads the file during HTML parsing and will pause the HTML parser to execute it when it has finished downloading.
+
+- <script defer>: defer downloads the file during HTML parsing and will only execute it after the parser has completed. defer scripts are also guaranteed to execute in the order that they appear in the document.
+
+==========================================================================================
+
+8) What is regular expression and what are its use cases?
+- Regular expression is a sequence of characters that define a search pattern. 
+Example: Chess Notation (A|B|C|D|E|F|G|H)(1|2|3|4|5|6|7|8)
+
+Usecases of regex: 
+- It can be used for zip codes 
+- verify the structure of strings
+- extract substrings form structured strings
+- search/replace/rearrange parts of the string
+
+==========================================================================================
+
+9) In Javascript, What is the difference in creating an object between literal notation and constructor function?
+- In JavaScript there are two ways to create an object: 
+// constructor function
+function Employee() {};
+
+//Literal notaion
+var Employee = {};
+
+- Objects created using object literal are singletons where as Object defined with a function constructor lets you have multiple instances of that object
+
+- Constructor notation uses function declaration type syntax and literal notation uses the variable declaration type syntax. 
+
+ 
+
+
+
+
+

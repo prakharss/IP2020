@@ -1,0 +1,45 @@
+Basic OOPs and other concepts :- 
+1. Inheritance 
+2. Polymorphism 
+3. Exceptions 
+4. SOLID principles
+-----------------------------------
+Topics :-
+Aggregation, Association, Generalization, UML Diagram , Class Diagram 
+What is publisher-subscriber model?
+-----------------------------------
+Mostly Used Patterns (Only top 6 we need to learn) :-
+1. Builder Pattern 
+2. Singleton Pattern 
+3. Factory Pattern 
+4. Abstract Factory Pattern 
+5. Cascade Pattern 
+6. Prototype Pattern
+
+7. Adapter Pattern  
+8. Strategy Pattern 
+9. State Pattern 
+---------------------------------------
+Sample Problems :-
+- RBAC
+- Coffee Vending Machine
+- Flipkart Machine Coding Round Question
+1. Tic-Tac-Toe
+2. Snake Ladder
+3. Chess Game
+4. URL Shortener
+5. Splitwise
+6. Sudoku Validator
+7. Vending Machine
+8. Elevator System
+9. Parking Lot Design
+10. Hotel Management Design
+11. Library Management Design
+12. Design Trello/ Microsoft Task Planner
+13. Design BookMyShow
+14. Design StackOverflow
+15. Design Quora system
+16. Design Customer Call Center System
+---------------------------------------
+Doubts :-
+Why not use aggregation in builderdseign?

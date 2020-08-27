@@ -1,0 +1,66 @@
+package com.java.examples;
+
+import java.util.*;
+
+//Client of Company X
+class A {  //A is client
+	public static void main(String[] args) {
+		String typeOfOs="Linux";
+		OS obj=FactoryBean.getInstance(typeOfOs);
+		obj.memoryManagement();
+	}
+}
+
+//Company X
+class FactoryBean {
+	static OS getInstance(String typeOfOs) {
+		OS obj=null;
+		if(typeOfOs.equals("Android")) 
+			obj=new Android();
+		else if(typeOfOs.equals("Linux"))
+			obj=new Linux();
+		else 
+			obj=new Windows();
+		return obj;	
+	}
+}
+
+interface OS {
+	void memoryManagement();
+	void createProcess();
+}
+
+class Android implements OS {
+	@Override
+	public void memoryManagement() {
+		System.out.println("memoryManagement in Android");
+	}
+	@Override
+	public void createProcess() {
+	
+	}
+}
+
+class Linux implements OS {
+	@Override
+	public void memoryManagement() {
+		System.out.println("memoryManagement in Linux");
+	}
+	@Override
+	public void createProcess() {
+		
+	}
+}
+
+class Windows implements OS {
+	@Override
+	public void memoryManagement() {
+		System.out.println("memoryManagement in Windows");
+	}
+	@Override
+	public void createProcess() {
+		
+	}
+}
+
+

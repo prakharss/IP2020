@@ -1,0 +1,8 @@
+VISA
+
+Applied via LinkedIn
+
+Round 1 (8th Aug '20): Hacker Round test of 1.5hrs with 3 very easy array based questions
+Round 2 (13th Aug '20): Delete Node from BST. Interviewer was inclined to recursive approach. But I gave iterative approach. Went fine. Just a small hiccup in the 3rd case of deleting node having two children. She wanted to ask another question but I took 1hr for one question.
+Round 3 (13th Aug '20): Basic array question. Was asked two approaches (just had to be careful with corner cases). General discussion on resume. Questions like SQL Injection, Authentication/Authorization, JPA/Hibernate, How would you secure your APIs, Throughput etc. Overall went okay.
+Round 4 (14th Aug '20): Ledger system design. More concentrated on Database transactions (few thousands per second). Solution is RDBMS with row level locking but aggregate few thousands of txns and hit the db once per certain no. What Design patterns are used in Collections.sort framework? Very good discussions overall. Liked the way it went on. 

@@ -1,0 +1,29 @@
+- Given a string of lowercase alphabetic characters, find the first unique and first duplicate character.
+Expecting a O(n) solution with constant space S(1)
+Examples:
+String     ->    unique duplicate
+“character” ->   h, c
+“similarities” -> m, s
+"ccccc" ->       null c
+"abcd" ->        a null
+"ccdddd" ->      null c
+"cddddd"  ->     c d
+
+- In above question only, How about sorted characters (if we we sort the string, what will be the answer) 
+Expecting a O(n) solution with constant space S(1)
+Examples:		
+"character" ->  e, a
+"similarities" -> a, i  
+
+- Minimum number of jumps to reach end
+Expecting a O(n) solution with constant space S(1)
+https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/
+
+- Have you used any devops tool before?
+
+- What tech stack is used in SN?
+
+- Which DB is used in SN?
+
+
+

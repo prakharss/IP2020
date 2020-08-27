@@ -1,0 +1,4 @@
+- We have 2 arrays A of size n and B of size n + m. Array A is completely filled and sorted. Array B has only m elements filled and these m elements are already in sorted order. m elements in array B are not fix (assume they can be present in any place). 
+Now merge 2 given arrays so that final array will contain all element in sorted order. 
+Expecting O(n) solution with NO EXTRA SPACE
+

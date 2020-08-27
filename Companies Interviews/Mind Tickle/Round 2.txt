@@ -1,0 +1,10 @@
+- Did you work on anything which require scaling?
+
+- How we handle when data is increased suddenly (like big billion sales) 
+He was expecting something related to cloud 
+
+- How live streaming works
+How we will do push and pull
+He took the example of fb live
+What challenges will come and how we can overcome that?
+
