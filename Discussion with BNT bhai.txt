@@ -1,0 +1,13 @@
+- Box1 (getNewsFeed) (mulitple thread)
+
+Connection Pool (Implement)
+https://www.baeldung.com/java-connection-pooling
+
+User1 Thread1 Connection1
+
+Database 1, Database 2, Database 3 
+
+- Box2 (getNewsFeed)
+
+war
+tomCat application

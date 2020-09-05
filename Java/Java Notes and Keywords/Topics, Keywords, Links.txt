@@ -13,6 +13,7 @@ TOPICS
 - Important Feature of Java (Java v/s C++)
 - Garbage Collector
 - Design Patterns (Singleton, Factory, ...)
+- SOLID Principles
 
 KEYWORDS OR INTERVIEW QUESTIONS
 - Real world example of OOPS concept

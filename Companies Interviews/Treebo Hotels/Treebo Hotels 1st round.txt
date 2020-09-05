@@ -1,0 +1,29 @@
+1- Implement automated checkin and checkout system. Following are use cases:
+a) Assume room can only be booked for 1 day
+b) There are only 1 type of room
+c) One guest might need multiple rooms for his/her family
+d) CheckIn API 
+Input: Number of rooms 
+Output: List of room number assigned 
+e) Checkout API
+Input: List of room number
+Output: Exception if room is already empty and make filled room empty so other's can occupy these rooms
+f) Design should be scalable and extensible for other use case in future (if comes)
+g) Important usecase to keep in mind
+- If a hotel is at hot place (let's say Rajasthan or Jaisalmer), then assign rooms from top to bottom
+- If a hotel is at cold place (let's say Goa), then assign rooms from bottom to top
+h) You need to write unit test also for checkIn and checkOut functionality.
+
+2- What are cookies?
+
+3- Difference between http v/s https?
+
+4- What do we mean by immutability in Java? Why we need this concept and what is the use of writing immutabile classes?
+
+4- What are SAAS and PAAS product? SAAS v/s PAAS
+
+Extra (Similiar):
+What is JWT?
+What is CSRF?
+How to write unit test cases for any lld design?
+

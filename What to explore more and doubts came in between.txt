@@ -1,0 +1,26 @@
+- Servicenow DB and how it is configurable (we can select either Oracle and MySQL)?
+- What is the role of glide record and how it works?
+- What is servicenow architecture? [what is multitenant architecture]
+- High level design of Servicenow architecture
+- What is throtling in any backend API? [throttling and rate limiting in api gateway]
+- What all categories and catalog item we have in SN?
+- How we deploy code in SN (on cloud and how we handle large traffic and all)
+- Kubernates, AWS, How to scale for big billion day?
+- Difference between Multi-Tenant vs Single Tenant Architecture?
+- DB DESIGN FOR SERVICE CATALOG? - BASIC ARCHITECTURE OF SERVICE CATALOG
+- Statefull v/s stateless webservice
+- Webserver v/s Application server (what are these server)
+- What is NotNull in DB?
+
+- What is JWT?
+- What is CSRF?
+- How to write unit test cases for any lld design?
+- What are cookies and sessions?
+- Difference between http v/s https?
+- What is man in the middle attack
+- What are SAAS and PAAS product? SAAS v/s PAAS
+
+
+
+
+

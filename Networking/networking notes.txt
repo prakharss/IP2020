@@ -1,0 +1,6 @@
+TOPICS
+- What are cookies and sessions?
+- Difference between http v/s https?
+- What is man in the middle attack
+- What is JWT?
+- What is CSRF?

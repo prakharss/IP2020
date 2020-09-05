@@ -1,0 +1,55 @@
+- Refer SQL Queries
+- What is NOT NULL in Database
+- Controls in Transaction (commit, rollback)
+- DB Indexing (clustered v/s non clustered indexing)
+- SQL Injection
+- DELETE v/s TRUNCATE
+- DROP v/s TRUCATE
+- Foreign Key (whether 2 foreign key can exist or not)
+- Does View contain any data (answer is no, it only store references)
+- Relationship in DB (1 to 1, many to many and 1 to many)
+- ACID properties of a transaction
+- Inner (equal join), Outer join (left join, right join, fuller join) 
+- What is candidate key in Databases (Difference between AB and BA)
+ 
+==================================================================================
+
+- Question
+A               B
+id              id   
+1               1 
+1               2
+2               2
+2
+3
+
+select * from A (join) B on A.id=B.id 
+//result will have 7 touples
+
+==================================================================================
+
+- select * 
+  from t 
+ where ROWNUM > 1;
+
+Because ROWNUM > 1 is not true for the first row, ROWNUM does not advance to 2.
+//So this will return nothing (0 touples will be returned)
+
+==================================================================================
+
+- select * 
+  from t 
+ where ROWNUM <= 3;
+
+//It will return 3 records
+
+==================================================================================
+
+- select * from employee order by salary desc FETCH FIRST 3 ROWS ONLY;
+
+==================================================================================
+
+- General Query (order of keywords)
+(select * from Employee e join Department d on e.id=d.id where fName="Prakhar" group by fName having sum(salary)>=100 order by fName ASC/DESC)
+
+==================================================================================

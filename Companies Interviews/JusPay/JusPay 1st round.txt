@@ -1,0 +1,12 @@
+1- Tell me about your one project 
+
+2- What is indexing? Why can't we use hashMap to implement indexing? Why B-Tree and B+ Tree is preferred?
+hashMap can also be used but it depends on the use case. Range query can not be solved easily by hashMap
+
+3- Difference between thread and process? How many threads are need to create in server like tomcat or nodejs server? Can we have 1 thread only. If yes, then why and how?.
+In NodeJs, Tonardo only one thread is created. Answer is Reactive programming (Async calls)
+
+4- You are having some company X. Your client have some requirement to write an API to implement hashMap type of functionality (your system should be highly consistent plus highly available)
+
+5- Do you know about Kubernetes/Docker/Container/AWS
+He was just asking have you worked on deployment in cloud (any tech)

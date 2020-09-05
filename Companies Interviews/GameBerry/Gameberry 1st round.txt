@@ -1,0 +1,56 @@
+1) 
+https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
+
+CODE:
+Node *headNextSegment=null;
+int end=1;
+
+Node* reverseAGroup(Node *curr, int k) {
+	Node *head=null;
+	Node *prev=null;
+	for(int i=0;i<k;i++) {
+		if(curr) {
+			Node *temp=curr->next;
+			headNextSegment=curr->next;
+			curr->next=prev;
+			prev=curr;
+			curr=temp;
+			head=curr;
+		}
+		else {
+			end=0;
+			break;
+		}
+	}
+	return head;
+}
+
+Node* reverseListInGroups(int k, Node *head) {
+	Node *dummy=new Node(INT_MAX);
+	Node *tailPrev=dummy;
+	curr=head;
+	while(end) {
+		Node *tailCurrent=curr;
+		Node *headCurrent=reverseAGroup(curr,k);
+
+		tailPrev->next=headCurrent;
+		curr=headNextSegment;     //headOfNextSegment
+		tailPrev=tailCurrent;
+	}
+}
+
+2)
+Array[] 1 2 -3 8 5 -4  and sum
+https://www.geeksforgeeks.org/print-all-triplets-with-given-sum/
+
+3)
+- 2 Dices are given to you
+- 1 Dice is Regular (1,2,3,4,5,6) and 2nd dice is empty ('','','','','','')
+- Both Dice are thrown at the same time. Let's A number came up on 1st dice and B number came up on 2nd dice
+- What 6 numbers we need to put on 2nd dice so that A+B is always in range 1 to 12 and probability of sum of A and B for any number from 1 to 12 is equal.
+
+A + B = [1, 12] with equal probability for each number in this range
+
+Note: A+B should not fall outside the given range for any possibilities
+
+ANSWER is 0,6,0,6,0,6 

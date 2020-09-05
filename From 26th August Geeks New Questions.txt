@@ -1,0 +1,26 @@
+- Maximum consecutive numbers present in an array (https://www.geeksforgeeks.org/maximum-consecutive-numbers-present-array/)
+
+- We have given an array of 0 and 1. How many swaps are required so that 1's are together. 
+https://practice.geeksforgeeks.org/problems/minimum-swaps-required-to-group-all-1s-together/0
+- https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/
+
+- Given an unsorted integer array, find the first missing positive integer.
+https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array-set-2/?ref=rp
+https://www.interviewbit.com/problems/first-missing-integer/
+
+- https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
+
+- Find longest valid parenthesis 
+https://leetcode.com/problems/longest-valid-parentheses/solution/ 
+https://www.geeksforgeeks.org/length-of-the-longest-valid-substring/
+O(n) and O(n) space solution is fine
+Can be done in O(n) and O(1) space
+
+- Length of the longest substring without repeating characters
+https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/
+https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/
+Expecting O(n) S(26)
+
+- Minimum number of jumps to reach end
+Expecting a O(n) solution with constant space S(1)
+https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/

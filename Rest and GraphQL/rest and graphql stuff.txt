@@ -10,7 +10,8 @@ Browser Cookies
 what is Resource in rest api?
 resource v/s endpoint 
 (https://stackoverflow.com/questions/30580562/what-is-the-difference-between-resource-and-endpoint)
-webserver v/s application server
+Webserver v/s Application server (what are these server)
+Statefull v/s stateless webservice
 
 NOTES
 * GraphQL Features
@@ -29,6 +30,7 @@ NOTES
 
 LINKS
 Rest is explained (https://www.youtube.com/watch?v=LooL6_chvN4)
+https://blog.restcase.com/restful-api-basic-guidelines/
 
 DOUBT
 how to process graphQL query in backend (we use resolver for that)

@@ -1,11 +1,17 @@
 NOTES
 - Java has removed many complicated and rarely-used features, for example, explicit pointers, operator overloading, etc.
+
 - There is no need to remove unreferenced objects because there is an Automatic Garbage Collection in Java.
+
 - Single root hierarchy as everything gets derived from java.lang.Object.	
+
 - java.lang package is included by default in all other classes (Example: Object class methods is accessible from all classes)
+
 - Interface and classes can be present inside a class
+
 - Static members are always part of memory whether they are in use or not. Static members are stored in CLASS AREA
 You can not control creation and destruction of static variable. Usefully they have been created at program loading and destroyed when program unload (or when JVM shuts down).
+
 - Cohesion is the Object Oriented principle most closely associated with making sure that a class is designed with a single, well-focused purpose (based on single responsibility principle).
 The more focused a class is, the cohesiveness of that class is more. The advantages of high cohesion is that such classes are much easier to maintain (and less frequently changed) than classes with low cohesion. Another benefit of high cohesion is that classes with a well-focused purpose tend to be more reusable than other classes
 - Association is a virtual (or logical) concept which is implemented using Aggregation
@@ -32,8 +38,8 @@ AND custom exception are kind of unchecked exception
 - Unreachable statement compile time error (if anything written after throw keyword and dont handle this by try/catch or by throws)
 - If class is final, then it's method will behave as final
 
-DOUBTS
 
+DOUBTS
 
 DISCUSSION (OR DRAFT)
 - Can inner class access private member of it's outer class [NOT CLEAR]
@@ -50,3 +56,5 @@ class Circle extends Shape{
 }
 YES, it is method overriding [CLEAR]
 - Abstraction mean hiding the internal details but why we are saying abstract class and interface are helping us to achieve Abstraction (we generally provide API documentation to customers, that should enough for abstraction) [CLEAR]
+- Where is array's length property defined? [CLEAR]
+https://stackoverflow.com/questions/9297899/where-is-arrays-length-property-defined

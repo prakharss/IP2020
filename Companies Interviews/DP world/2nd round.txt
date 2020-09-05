@@ -3,11 +3,13 @@
 - Find longest valid parenthesis 
 https://leetcode.com/problems/longest-valid-parentheses/solution/ 
 https://www.geeksforgeeks.org/length-of-the-longest-valid-substring/
-Expecting O(n) with constant space
+O(n) and O(n) space solution is fine
+Can be done in O(n) and O(1) space
 
 - Length of the longest substring without repeating characters
+https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/
 https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/
-Expecting O(n) with linear space S(n) but still best appraoch is O(n) S(1)
+Expecting O(n) S(26)
 
 We discussed queue approach as well (this will use S(n) extra space) 
 

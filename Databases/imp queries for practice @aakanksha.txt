@@ -1,0 +1,50 @@
+1)
+Given three tables :
+Employee :: EmpId [PK] | EmpName | EmpDeptId [FK] | EmpDesignationId [FK] | Salary
+Department :: DeptId [PK] | DeptName
+Designation :: DesignationId [PK] | DesignationName
+→ Select top 3 salaried employees 
+Input
+1000
+1000
+900
+900
+800
+
+Output
+1000
+1000
+900
+
+select emp.name from (select * from Employee order by salary DESC) emp where rownum<=3;
+
+A) Select top salaried department (top on the basis of package [highest package], top on the basic of billing [total sum]) 
+a) top on the basis of package [highest package]
+-- select d.DeptName, e.salary from Employee e join Department d on d.DeptId=e.EmpDeptId order by e.salary desc;
+-- select * from (select DeptName, max(salary) from Employee e join Department d on d.DesignationId=e.EmpDesignationId groupBy DeptName order by max(salary) desc) where rownum<=1;
+
+b) top on the basic of billing [total sum]
+select * from (select DeptName, sum(salary) from Employee e join Department d on d.DesignationId=e.EmpDesignationId groupBy DeptName order by sum(salary) desc) where rownum<=1;
+
+B) Select average of salaries based on designation
+select avg(salaries) from Employee e join Designation d on d.DesignationId=e.EmpDesignationId group by designation
+
+============================================================================================
+
+2)
+Table 
+User (userid (primary key), userName, role, recordStatus)
+recordStatus: 0 (activate) / 1 (deactivate)   
+Role: teacher/student/admin
+
+//User table
+1   abc  student  1
+2   abc  teacher  1
+3   xyz  student  1
+4   saf  teacher  1
+5   abc  admin    0  
+6   saf  teacher  0
+7   abc  admin    1
+
+Write SQL query to find all the students which has both student and teacher role?
+select * from user u1 join user u2 on u1.userName = u2.userName where u1.role='student' and u2.role='teacher';  

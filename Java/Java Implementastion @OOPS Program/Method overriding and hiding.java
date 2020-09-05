@@ -5,7 +5,7 @@ class Super
 }
 class Child extends Super
 {
-  public static void foo(){System.out.println("I am foo in Child");}//Hiding
+  public static void foo(){System.out.println("I am foo in Child");}//Methhod Hiding
   public void bar(){System.out.println("I am bar in Child");}//Overriding
   public static void main(String[] args)
   {

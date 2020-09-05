@@ -54,7 +54,7 @@ Find middle element of a linklist
 
 Q3- 
 Table 
-User (id, userId, role, recordStatus)
+User (id (primary key), userId, role, recordStatus)
 recordStatus: 0 (activate) / 1 (deactivate)   
 Role: teacher/student/admin
 
@@ -68,6 +68,7 @@ Role: teacher/student/admin
 7   abc  admin    1
 
 Write SQL query to find all the students which has both student and teacher role
+select * from user u1 join user u2 on u1.userName = u2.userName where u1.role='student' and u2.role='teacher';  
 
 Q4- Have you ever worked with NodeJs? 
 

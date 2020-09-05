@@ -1,15 +1,23 @@
 Round 1 :
 Reverse a Linked List
+
 Print Linked List in reversed order [Without changing it]
+
 If A, B, C, and D take 10, 9, 2 and 1 minutes respectively to cross a bridge, find the minimum time taken to cross thr bridge by all given the following conditions:
 It is night, only 1 lamp is there
 2 persons can cross the bridge at a time
 1 has to return as there is only one lamp
 Generalize it for N persons
+
 Find the first-subarray from a given unsorted array, whose sum is equal to the target Value
+
 Find the first-subarray from a given sorted array, whose sum is equal to the target value
+
 Find the last-subarray from a given array, whose sum is equal to the target value
+
 Round 2 :
 Least Recent Used Cache
+
 Override and Overload
+
 No. of ways to reach from source from destination in a N*N matrix of 0 and 1s

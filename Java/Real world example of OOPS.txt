@@ -36,8 +36,7 @@ https://developer.payumoney.com/bolt-checkout/?_ga=2.183012838.1723721768.159533
 * 
 class Father
 {
-	void drive()
-	{
+	void drive() {
 		//drive cautiously :-)
 	}
 	void home(){sout("father's home")}
@@ -48,8 +47,7 @@ class Father
 }
 class You extends Father
 {
-	void drive()
-	{
+	void drive() {
 		//drive rash! :P
 	}
 	//after crossing age 18
@@ -60,24 +58,24 @@ class You extends Father
 }
 
 * 
-abstract class Bank{    
+abstract class Bank {    
 	abstract int getRateOfInterest();    
 }    
-class SBI extends Bank{    
+class SBI extends Bank {    
 	int getRateOfInterest(){return 7;}    
 }    
-class PNB extends Bank{    
+class PNB extends Bank {    
 	int getRateOfInterest(){return 8;}    
 } 
 
 *
-abstract class Shape{  
+abstract class Shape {  
 	abstract void draw();  
 }  
 //In real scenario, implementation is provided by others i.e. unknown by end user  
-class Rectangle extends Shape{  
+class Rectangle extends Shape {  
 	void draw(){System.out.println("drawing rectangle");}  
 }  
-class Circle extends Shape{  
+class Circle extends Shape {  
 	void draw(){System.out.println("drawing circle");}  
 }
