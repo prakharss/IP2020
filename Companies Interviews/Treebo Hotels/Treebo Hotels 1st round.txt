@@ -8,7 +8,7 @@ Output: List of room number assigned
 e) Checkout API
 Input: List of room number
 Output: Exception if room is already empty and make filled room empty so other's can occupy these rooms
-f) Design should be scalable and extensible for other use case in future (if comes)
+f) Design should be extensible for other use case in future (if comes)
 g) Important usecase to keep in mind
 - If a hotel is at hot place (let's say Rajasthan or Jaisalmer), then assign rooms from top to bottom
 - If a hotel is at cold place (let's say Goa), then assign rooms from bottom to top
@@ -20,7 +20,7 @@ h) You need to write unit test also for checkIn and checkOut functionality.
 
 4- What do we mean by immutability in Java? Why we need this concept and what is the use of writing immutabile classes?
 
-4- What are SAAS and PAAS product? SAAS v/s PAAS
+5- What are SAAS and PAAS product? SAAS v/s PAAS
 
 Extra (Similiar):
 What is JWT?

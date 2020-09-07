@@ -1,0 +1,29 @@
+1-
+Find the number (target) in sorted and rotated array?
+https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/  
+
+2- 
+https://www.geeksforgeeks.org/program-to-generate-all-possible-valid-ip-addresses-from-given-string-set-2/
+mid
+numberOfIPV4.cpp file in same folder
+
+3-
+https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
