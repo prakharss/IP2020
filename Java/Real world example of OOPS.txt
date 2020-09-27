@@ -7,7 +7,7 @@ REAL WORLD EXAMPLE OF:
 
 - Association
 * One to One (One Company, One CEO) (School Principal)
-* One to Many (1 Manager, Many Reportee) (1 Department, Many Teacher)
+* One to Many (1 Manager, Many Reportee) (1 Department, Many Teacher) (person bankaccount)
 * Many to Many (Students and Teacher) (Cricketer, Team)
 
 - Aggregation

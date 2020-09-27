@@ -1,0 +1,39 @@
+Celigo (2nd round)
+1- 
+
+2- 
+/*
+Given a binary tree, find the leftmost value in the last row of the tree.
+i/p: 
+   2
+   / \
+  1   3
+o/p:
+1
+    
+Input:
+        1
+       / \
+      2   3
+     /   / \
+    4   5   6
+       /
+      7
+Output:
+7    
+*/
+
+3- 
+Prices of bottles: [1,4,4,7,2,5]
+conditions:
+1. you can sell from the ends only
+2. can sell one bottle a day
+2. sale price of bottle - number of days * price
+How much maximum price you can make by selling all bottles
+https://www.geeksforgeeks.org/maximum-profit-sale-wines/
+
+Extra Questions:
+https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
+https://www.geeksforgeeks.org/partition-problem-dp-18/
+https://www.geeksforgeeks.org/stock-buy-sell/ (https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/

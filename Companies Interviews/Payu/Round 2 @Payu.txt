@@ -1,0 +1,13 @@
+- Tell me about service catalog and it's flow
+- Small architecture of servicenow
+- What rest method you will use in authorization (get,put,post)
+- How to break the singleton
+- What is Factory Pattern
+- What is thread local
+- Serialization in Java
+- How to create custom annotations
+- What are locks and synchronization
+- Multithreading
+
+
+

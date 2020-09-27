@@ -1,0 +1,5 @@
+1- 
+https://www.geeksforgeeks.org/maximum-sum-nodes-binary-tree-no-two-adjacent/
+
+2- 
+https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together/

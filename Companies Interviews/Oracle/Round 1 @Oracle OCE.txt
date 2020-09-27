@@ -1,0 +1,7 @@
+- Find Kth smallest element in BST
+- Now two queries are given to you
+One is to insert something in BST
+One is to find Kth smallest element (this K can vary)
+Solve this for T test cases (T times you need to solve)
+
+Interviewer Expectations - No extra space apart from BST

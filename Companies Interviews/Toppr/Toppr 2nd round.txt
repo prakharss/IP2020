@@ -1,0 +1,29 @@
+1- In a classroom, N*M students are seating in N row and M columns. Each student belong to some group. Total number groups are K. Find the max number student sitting together (LEFT, RIGHT, DOWN, BOTTOM) and 
+which group they belong to?
+If more than one answer exist, then print the group with less number.
+
+INPUT
+N=4 M=5
+K=3
+
+Given Matrix (mat[i][j] represent a group number of student sitting at i,j coordinate)
+2 1 1 1 3
+2 2 1 1 3
+1 1 2 3 3
+1 1 3 3 2
+
+OUTPUT
+6 3  
+
+EXPLANATION
+Group number 3 is coming 6 times (sitting together)
+
+
+2- Design a youtube view count (HLD)
+Focussed on Cache
+Master Slave Architecture
+DB
+Application server
+All viewer should get same count (it might not be as of count stored in DB)
+
+

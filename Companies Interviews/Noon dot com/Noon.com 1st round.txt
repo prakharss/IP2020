@@ -1,0 +1,39 @@
+1- 
+Find 2nd minimum and 3rd minimum in an array. Print -1 if 2nd minimum or 3rd minimum does not exist
+We are suppose to solve this in one loop
+
+2- 
+Given range, let's say l and r. Using Math.random(), generate number between l and r (both inclusive) i.e [l,r].
+Note- Math.random() generate numbers in range [0,1).
+
+//SOLUTION
+package com.java.examples;
+import java.util.*;
+import java.io.*;
+
+class A {
+
+    public static void main(String [] args) {
+    	Scanner sc=new Scanner(System.in);
+    	int u=sc.nextInt();
+    	int v=sc.nextInt();
+    	v=v+1; //to make it [u,v] //Math.random generate number's in [0,1)
+    	
+    	//make new range [0,v-u]
+    	int u1=0;
+    	int u2=v-u;  
+    	
+    	int hash[]=new int[v-u]; 
+    	for(int i=0;i<100;i++) {
+    		int newNumber=(int)((v-u) * Math.random()); 
+    		hash[newNumber]++;
+    		System.out.print(newNumber+u + " ");
+    	}
+    	
+    	System.out.println("\n");
+    	for(int i=0;i<u2;i++) {
+    		System.out.println(i+u + " is coming " + hash[i] + " number of times");   //i+u
+    	}
+    }
+}
+

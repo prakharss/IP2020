@@ -1,0 +1,17 @@
+- Difference between authorisation and authentication (Discussion about tokens in authentication)
+- Difference between HTTP's and REST
+- What is PATCH in REST?
+- What is LRU and how you will implement it?
+- Convert BST to min heap? 
+(https://www.geeksforgeeks.org/in-place-convert-bst-into-a-min-heap/)
+https://www.geeksforgeeks.org/convert-bst-min-heap/
+- Design a DB schema for
+To sell different product's of different variant (color, ram). Price will be different location wise.
+SOLUTION
+Category (CategoryId, JSON (Ram,VT1, VT2))
+Product (ProductId, ProductName, CategoryId)
+VAriant (VariantId, RAM, Color)
+M2M (ProductId, VariantId, Location, Price)   < 50000
+Location (LocationId, Street, City, Country)
+
+select all laptops of delhi location having price < 50000

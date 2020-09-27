@@ -1,0 +1,15 @@
+- Explain UHG projects in detail
+- Explain any big feature you worked in UHG?
+- How singleton will work in case of multithreading environment?
+- HTTP Response code for “Please wait a little bit” (https://stackoverflow.com/questions/12449538/http-response-code-for-please-wait-a-little-bit) [202 Accepted]
+
+- What is closure in javascript
+- How to figure out that any variable is array or not in javascript? Array.isArray(obj);
+- in Javascript 
+for(var x=1;x<=10;x++) {
+	console.log(x);
+}
+How to restrict x only inside this for loop [answer is using let]
+
+- Design high level architecture of memes creation system (How to store IMAGE - CDN)
+- What is monolithic and microservice architecture?

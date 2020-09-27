@@ -1,6 +1,7 @@
 TOPICS/QUESTIONS
 what is RESTful API's (https://www.youtube.com/watch?v=LooL6_chvN4)
 what is http protocol?
+If I am writing an authentication service (what http method is used)
 All http methods (get, put, post, delete, patch) 
 Post v/s Put (https://restfulapi.net/rest-put-vs-post/)
 Rest v/s GraphQL (https://www.youtube.com/watch?v=PeAOEAmR0D0)
@@ -24,9 +25,11 @@ NOTES
 * PATCH method is a request method supported by the Hypertext Transfer Protocol (HTTP) protocol for making partial changes to an existing resource
 
 * HTTP Status (https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
-- 201 (created), 200 (success), 204 (success but no content)
-- 404 (resurce not found), 403 (forbidden), 405 (method not allowed) 
-- 500 Internal Server Error
+- 201 (created), 200 (success), 204 (success but no content), 
+202 (The request has been accepted for processing, but the processing has not been completed) [SUCCESS]
+- 3xx [REDIRECTION]
+- 404 (resurce not found), 403 (forbidden), 405 (method not allowed) [CLIENT SIDE ERROR]
+- 500 Internal Server Error [SERVER SIDE]
 
 LINKS
 Rest is explained (https://www.youtube.com/watch?v=LooL6_chvN4)
@@ -34,3 +37,5 @@ https://blog.restcase.com/restful-api-basic-guidelines/
 
 DOUBT
 how to process graphQL query in backend (we use resolver for that)
+
+REAL LIFE EXAMPLES OF get, put, post, delete, patch

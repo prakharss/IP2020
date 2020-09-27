@@ -1,0 +1,44 @@
+GOOD QUESTION
+- Write a immutable class
+- Internal implementation of hashMapp in java
+- Singleton Class will be breaked in Multithreading environment (what you will do to avoid this)
+- How different threads comunicate with each other
+- How start runs run method of Thread
+- what is dependency injecition and IOC container in spring?
+- ACID Properties 
+- Can interface have method definations (yes by default methods)
+
+GOOD LOGICAL QUESTION
+- Print Even and Odd Numbers Using 2 Threads (One thread should only print only odd numbers and other thread should print only even numbers)
+https://stackoverflow.com/questions/16689449/printing-even-and-odd-using-two-threads-in-java
+
+- What if there are 10 boxes filled with coins in which 9 boxes have coins of 10gms and 1 box has coins of 9gms. You have 1 weighing machine which will give you only and only one chance to tell the weight. How will you find the box having coins of 9gm?
+https://www.quora.com/What-if-there-are-10-boxes-filled-with-coins-in-which-9-boxes-have-coins-of-10gms-and-1-box-has-coins-of-9gms-You-have-1-weighing-machine-which-will-give-you-only-and-only-one-chance-to-tell-the-weight-How-will-you
+https://www.quora.com/We-have-10-boxes-and-each-contains-100-pearls-9-boxes-have-pearls-of-1-gram-and-in-1-box-we-have-pearls-of-1-1-grams-So-if-we-have-a-digital-weighing-machine-and-we-get-to-weigh-only-once-to-find-the-different-box
+
+AVERAGE QUESTION
+- HashMap v/s HashTable v/s ConcurrentHaspMap (where we can insert null)
+- HashMap v/s TreeMap
+- HashSet v/s TreeSet (where we can insert null)
+- Heirarchy of Collection (What is Navigable and sortedMap)
+- What is string pool and why string is immutable
+- ArrayList v/s Vector
+- String v/s StringBuilder v/s StringBuffer
+- Tell about process scheduling algorithms
+- Discuss Producer Consumer Problem and How to solve it?
+- Java Concurrency – yield(), sleep() and join() methods (https://www.geeksforgeeks.org/java-concurrency-yield-sleep-and-join-methods/)
+- Wait in multithreading
+- COUNT MAX MIN aggregate function
+- What are views in DB and difference between table and view?
+- What are SQL joins and all types of JOIN
+
+BAD QUESTION 
+- Cuncurrent hashMap
+- SortedSet and SortedMap
+- Static Blocks
+- Anonymous Block
+- IdentityHashMap 
+- WeakHashMap 
+- difference dense rank and rank? (https://intellipaat.com/community/11597/whats-the-difference-between-rank-and-denserank-functions-in-oracle)
+- what are sql clauses?
+- What is thread local?
